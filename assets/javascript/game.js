@@ -16,6 +16,7 @@ function getPrintWord() {
     }
     return randomWord;
 }
+//HELLO THIS IS A TEST COMMENT
 randomWord = getPrintWord().toLowerCase();
 document.onkeydown = function (e) {
     var currentKey = e.key;
